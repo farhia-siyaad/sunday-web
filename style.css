@@ -1,0 +1,248 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+ }
+ 
+ .header {
+     padding: 30px 20px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .header ul {
+     list-style: none;
+     display: flex;
+ }
+ 
+ .header ul li {
+     font-size: 26px;
+     padding: 10px 30px
+ }
+ .getstarted-btn {
+    
+     border-radius: 12px;
+     border: none;
+     font-size: 22px;
+     padding: 13px 50px;
+     margin-left: 20px;
+     margin-right: 60px;
+     background-color:rgb(212, 143, 16)
+    
+ }
+ 
+ 
+ .signin-btn {
+     border: none;
+     font-size: 22px;
+    margin-right:40px ;
+    
+ }
+ 
+ #buttons i{
+     font-size: 20px;
+     margin-right: 20px;
+ }
+ .showcase{
+     background-color: rgb(18, 181, 43);
+     height: 400px;
+     
+ }
+ .showcase h1 {
+     padding-top: 1.3em;
+     font-size: 2em;
+     text-align: center;
+     color: white;
+ }
+ .view-btn{
+     border-radius: 12px;
+     border: none;
+     font-size: 22px;
+     color: white;
+     padding: 13px 50px;
+     margin-left: 20px;
+     margin-right: 60px;
+     background-color:rgb(212, 143, 16)
+ }
+  .showcase,.view-btn{
+     margin-top: 30px;
+     text-align: center;
+     
+  }
+
+  .about-parent {
+     margin: 10em 1px;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ 
+ .about-left h1 {
+     color: #204E51;
+     margin-bottom: 10px;
+     font-size: 4.3em;
+ }
+ .about-left h4{
+     color: rgb(9, 79, 9);
+ }
+ 
+ .about-left p {
+     margin-bottom: 20px;
+ }
+.help-btn{
+     border-radius: 5px;
+     border: none;
+     font-size: 22px;
+     padding: 10px 10px;
+     margin-left: 1300px;
+     background-color:green;
+    margin-bottom: 90px;
+}
+.culture-parent {
+     /* margin: 1em 1px; */
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ 
+ .culture-left h1 {
+     color: #204E51;
+     margin-bottom: 10px;
+     font-size: 3.3em;
+     margin-left: 90px;
+ }
+ .culture-left h4{
+     color: rgb(9, 79, 9);
+     margin-left: 90px;
+ }
+ 
+ .culture-left p {
+     margin-bottom: 20px;
+     margin-left: 90px;
+     font-size: 25px;
+ }
+
+ .wraper{
+     height: 420px;
+     width: 420px;
+     border-radius: 50%;
+     overflow: hidden;
+     border: 10px solid #FFF;
+    
+  
+ }
+ .wraper img{
+     height: 100%;
+     width: 100%;
+     border-radius: 100%;
+     border: 6px solid #fff;
+     
+ }
+
+ .sustainability-parent {
+     /* margin: 1em 1px; */
+     padding-top: 70px;
+     display: flex;
+     justify-content: center;
+     font-size: 25px;
+ }
+ 
+ 
+ .sustainability-left h1 {
+     
+     color: #204E51;
+     margin-bottom: 10px;
+     font-size: 3.3em;
+ }
+ .sustainability-left h4{
+     color: rgb(9, 79, 9);
+ }
+ 
+ .sustainability-left p {
+     margin-bottom: 20px;
+ }
+ 
+
+
+
+
+ .wraper1{
+     height: 420px;
+     width: 420px;
+     border-radius: 50%;
+     overflow: hidden;
+     border: 10px solid #FFF;
+     /* margin-left: 700px; */
+ }
+ .wraper1 img{
+     height: 100%;
+     width: 100%;
+     border-radius: 100%;
+     border: 6px solid #fff;
+     
+ }
+ 
+ #menu-icon{
+     font-size: 50px;
+     position: absolute;
+     right: 0px;
+     display: none;
+ }
+ @media screen  and (max-width:600px) {
+ 
+     #menu-icon{
+         display: block;
+     }
+     #buttons{
+         display: none;
+     }
+     .header ul{
+         display: none;
+     }
+     .header h1{
+         font-size: 24px;
+     }
+     .showcase h1{
+         font-size: 40px;
+     }
+     .showcase p{
+         margin: 12px;
+     }
+     
+
+     .signin-btn{
+         margin-right: 20px;
+         margin-top: 27px;
+     }
+ 
+ 
+     .about-parent{
+         flex-direction: column;
+     }
+     .about-left{
+         width: 300px;
+         margin: 20px;
+     }
+     .about-left h1{
+         font-size: 40px;
+     }
+     .help-btn{
+          padding: 10px 1em;
+          font-size: 25px;
+         margin-left: -3px;
+        margin-top: 5px;
+     }
+    .culture-parent{
+      flex-direction: column;
+    }
+    .culture-left{
+     margin-left: -60px;
+     grid-template-columns: 250px;
+    justify-content: space-evenly;
+    }
+    .wraper{
+  border-radius: 0;
+    }
+   
+    
+}
